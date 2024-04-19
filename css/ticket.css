@@ -1,0 +1,71 @@
+body {
+  background: #f0eded;
+}
+
+body .container {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+body .container .blocks .right {
+  padding: 1rem;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+body .container .blocks .right table {
+  padding: 20px;
+  text-align: left;
+}
+
+body .container .blocks .right table th {
+  opacity: 0.7;
+}
+
+body .container .blocks .right table td {
+  opacity: 0.6;
+}
+
+body .container .blocks .right .trip-detail-container {
+  padding: 30px;
+  padding-top: 0;
+}
+
+body .container .blocks .right .trip-detail-title,
+body .container .blocks .right .total-price {
+  color: #2348af;
+  opacity: 0.7;
+}
+
+body .container .blocks .right table {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  line-height: 1.5em;
+}
+
+body .container .blocks .right tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+body .container .blocks .right hr {
+  opacity: 0.3;
+}
+
+.table_container {
+  margin-top: 5rem;
+  width: 100%;
+}
+.table_container > h3 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
